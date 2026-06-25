@@ -1,0 +1,5 @@
+MCU_LDSCRIPT = AT32F405xC_tinyuf2
+
+OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE
+
+SRC += usb_util_kb.c
